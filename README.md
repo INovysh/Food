@@ -1,2 +1,2 @@
 # Food
-## https://inovysh.github.io/Food/
+## https://inovysh.github.io/Food/dist/
