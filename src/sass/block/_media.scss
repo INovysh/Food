@@ -1,0 +1,530 @@
+@media (max-width: 1300px) {
+  .container {
+    max-width: 1135px;
+  }
+  .instagram {
+    &__wrapper {
+      width: 1135px;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 945px;
+  }
+  .header {
+    &__wrapper {
+      grid-template-columns: 100px 641px 1fr;
+    }
+    &__logo {
+      margin-top: 10px;
+      img {
+        width: 80px;
+      }
+    }
+    &__item {
+      &:nth-child(3) {
+        margin-left: 10px;
+        img {
+          width: 47px;
+        }
+      }
+    }
+  }
+  .offer {
+    &__item {
+      width: 225px;
+    }
+    &__btn {
+      width: 190px;
+    }
+    &__img {
+      img {
+        width: 225px;
+      }
+    }
+  }
+  .food {
+    &__item {
+      img {
+        margin-top: 95px;
+        width: 450px;
+      }
+    }
+  }
+  .slick {
+    &-list {
+      width: 853px;
+    }
+  }
+  .instagram {
+    &__wrapper {
+      width: 945px;
+    }
+
+    &__item {
+      width: 186px !important;
+      height: 186px;
+      margin-left: 14px;
+      margin-right: 14px;
+    }
+  }
+}
+@media (max-width: 992px) {
+  .container {
+    max-width: 740px;
+  }
+  .header {
+    &__wrapper {
+      grid-template-columns: 118px 426px 1fr;
+    }
+    &__subtitle {
+      padding-top: 15px;
+    }
+    &__item {
+      &:nth-child(3) {
+        margin-left: 20px;
+      }
+    }
+    &__nav {
+      flex-wrap: wrap;
+    }
+    &__icon {
+      img {
+        width: 50px;
+      }
+    }
+  }
+  .offer {
+    padding: 40px 0;
+    &__wrapper {
+      flex-wrap: wrap;
+      justify-content: space-around;
+      row-gap: 35px;
+    }
+    &__btn {
+      width: 260px;
+    }
+    &__item {
+      width: 320px;
+    }
+    &__img {
+      img {
+        width: 320px;
+      }
+    }
+  }
+  .premium {
+    padding-bottom: 40px;
+    &__wrapper {
+      flex-wrap: wrap;
+    }
+    &__item {
+      width: 225px;
+      margin-bottom: 35px;
+      &:nth-of-type(5) {
+        display: block;
+        img {
+          margin-top: 50px;
+          width: 225px;
+        }
+      }
+    }
+  }
+  .food {
+    padding-bottom: 40px;
+    &__wrapper {
+      flex-direction: column;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__reasons {
+      margin-top: 25px;
+    }
+    &__item {
+      &_p {
+        padding-left: 0;
+      }
+      img {
+        margin-top: 35px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+      }
+    }
+    &__btn {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .partner {
+    padding: 40px;
+  }
+  .surprise {
+    padding: 40px;
+    &__wrapper {
+      flex-direction: column-reverse;
+    }
+    &__title {
+      text-align: center;
+    }
+    &__btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+    &__item {
+      &_p {
+        margin-top: 0px;
+        padding-left: 0px;
+      }
+      img {
+        margin-top: 20px;
+        display: block;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+  .slick {
+    &-list {
+      width: 740px;
+    }
+    &-dots {
+      margin-top: 35px;
+      display: flex;
+      justify-content: center;
+      column-gap: 15px;
+      li {
+        margin-right: 15px;
+        margin-left: 15px;
+      }
+      button {
+        display: none;
+      }
+    }
+  }
+  .instagram {
+    padding-bottom: 25px;
+    &__wrapper {
+      width: 740px;
+    }
+
+    &__item {
+      width: 215px !important;
+      height: 215px;
+      padding: 10px;
+      margin-left: 16px;
+      margin-right: 16px;
+      img {
+        width: 190px;
+      }
+    }
+  }
+  .footer {
+    &__item:first-child {
+      display: none;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 540px;
+  }
+  .header {
+    &__wrapper {
+      position: relative;
+      grid-template-columns: 100px 426px 1fr;
+    }
+    &__subtitle {
+      padding-top: 10px;
+    }
+    &__item {
+      &:nth-child(3) {
+        position: absolute;
+        top: 28px;
+        left: 195px;
+        margin-left: 20px;
+      }
+    }
+    &__logo {
+      img {
+        width: 80px;
+      }
+    }
+  }
+  .promo {
+    background: url("../img/promo_bg.jpg") 60% 50% / cover no-repeat #a8a1a1;
+    &__text,
+    &__title {
+      text-align: center;
+    }
+    &__btn {
+      margin-right: auto;
+      margin-left: auto;
+      display: block;
+    }
+  }
+  .premium {
+    padding-bottom: 35px;
+    &__wrapper {
+      position: relative;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+    &__text {
+      text-align: center;
+    }
+    &__img {
+      width: 48px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    &__item:nth-of-type(5) {
+      img {
+        width: 300px;
+      }
+    }
+  }
+  .food {
+    &__item {
+      img {
+        width: 440px;
+      }
+    }
+  }
+  .surprise {
+    &__text {
+      text-align: center;
+    }
+    &__item {
+      img {
+        width: 450px;
+      }
+    }
+  }
+  .instagram {
+    padding-bottom: 15px;
+    &__title {
+      font-size: 39px;
+    }
+    &__wrapper {
+      width: 540px;
+      margin-top: 15px;
+    }
+
+    &__item {
+      width: 98px !important;
+      height: 80px;
+      padding: 10px;
+      margin-left: 5px;
+      margin-right: 5px;
+      img{
+        width: 90px;
+      }
+    }
+  }
+
+  .slick {
+    &-dots{
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+    &-arrow {
+      display: none !important;
+    }
+    &-list {
+      width: 540px;
+    }
+  }
+  .tell {
+    padding: 40px;
+    &__wrapper {
+      width: 490px;
+    }
+  }
+  .footer {
+    padding: 40px 0;
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item {
+      margin-bottom: 20px;
+      li {
+        text-align: center;
+      }
+    }
+    &__title {
+      text-align: center;
+    }
+    &__info {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__info.hidden {
+      display: none;
+    }
+  }
+  .pageUp {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .container {
+    max-width: 300px;
+  }
+  .aside {
+    height: 60px;
+    padding: 10px 0;
+    &__text {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+  }
+  .header {
+    padding: 10px 0;
+    &__wrapper {
+      grid-template-columns: 1fr;
+    }
+    &__nav {
+      justify-content: space-around;
+    }
+    &__item {
+      &:nth-child(2) {
+        padding-top: 20px;
+      }
+      &:nth-child(3) {
+        top: 0;
+        left: 100px;
+      }
+    }
+  }
+  .promo {
+    padding-top: 60px;
+    padding-bottom: 140px;
+  }
+  .offer {
+    padding: 25px 0;
+    &__title {
+      font-size: 38px;
+    }
+
+    &__btn {
+      width: 230px;
+    }
+    &__item {
+      width: 270px;
+    }
+    &__img {
+      img {
+        width: 270px;
+      }
+    }
+  }
+  .premium {
+    padding-bottom: 5px;
+    &__title {
+      font-size: 37px;
+    }
+    &__wrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+    &__item:nth-of-type(5) {
+      display: none;
+    }
+  }
+  .food {
+    &__title {
+      font-size: 38px;
+    }
+    &__text {
+      text-align: center;
+    }
+    &__item {
+      img {
+        width: 240px;
+        margin-top: 20px;
+      }
+    }
+  }
+  .partner {
+    &__title {
+      font-size: 28px;
+    }
+  }
+  .surprise {
+    padding: 25px 0;
+    &__title {
+      font-size: 32px;
+    }
+    &__item {
+      img {
+        width: 240px;
+      }
+    }
+  }
+  .instagram {
+    &__wrapper {
+      display: none;
+    }
+    &__title {
+      font-size: 22px;
+      line-height: 30px;
+    }
+    
+  }
+  .slick {
+    &-track{
+      width: 9610px !important;
+    }
+    &-dots{
+      margin-top: 17px;
+      li{
+        margin-left: 8px;
+      margin-right: 8px;
+      }
+    }
+    &-list {
+      width: 298px;
+    }
+  }
+  .tell {
+    padding: 40px;
+    &__wrapper {
+      width: 490px;
+    }
+  }
+  .tell {
+    &__wrapper {
+      margin-top: 20px;
+      flex-wrap: wrap;
+      width: 300px;
+      width: 200px;
+      row-gap: 20px;
+      column-gap: 20px;
+    }
+    &__item {
+      img {
+        width: 50px;
+        height: 50px;
+      }
+    }
+  }
+  .footer {
+    padding: 25px 0;
+    &__item {
+      li {
+        margin-right: 20px;
+        margin-left: 20px;
+      }
+    }
+  }
+}

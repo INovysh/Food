@@ -1,0 +1,50 @@
+.header {
+  &__subtitle,
+  &__btn {
+    transition: all 0.5s;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+.promo__btn,
+.offer__btn,
+.food__btn,
+.partner__btn,
+.surprise__btn,
+.tell__item a {
+  transition: all 0.5s;
+  &:hover {
+    filter: brightness(1.3);
+    transform: scale(1.05);
+  }
+}
+.arrow {
+  &__hover {
+    &:hover {
+      fill: #ff8126;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+    &__subtitle,
+    &__btn {
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+  .promo__btn,
+  .offer__btn,
+  .food__btn,
+  .partner__btn,
+  .surprise__btn,
+  .tell__item a {
+    &:hover {
+      filter: none;
+      transform: none;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+@import "./lib/bootstrap-reboot.min";
+@import "./lib/slick";
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.container {
+  position: relative;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+/* .footer__wrapper {
+  .footer__item {
+    .show {
+      display: block;
+    }
+  }
+} */
+.footer__wrapper {
+  .footer__item {
+    .hidden {
+      display: none;
+    }
+  }
+}
+@import "./block/hover";
+@import "./block/promo";
+@import "./block/offer";
+@import "./block/premium";
+@import "./block/food";
+@import "./block/partner";
+@import "./block/surprise";
+@import "./block/instagram";
+@import "./block/tell";
+@import "./block/footer";
+@import "./block/media";

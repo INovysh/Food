@@ -1,0 +1,19 @@
+.tell {
+    background:url("../img/tell_bg.jpg") rgb(233, 152, 86);
+  padding: 60px 0;
+  &__title {
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1f1f1f;
+  }
+  &__wrapper{
+      margin: 0 auto;
+      margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      width: 510px;
+  }
+}

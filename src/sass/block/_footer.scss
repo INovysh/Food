@@ -1,0 +1,39 @@
+.footer {
+  padding: 60px 0;
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  &__title {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1f1f1f;
+  }
+  &__info {
+    
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    li {
+      margin-bottom: 10px;
+    }
+    a {
+      color: #3d3d3d;
+      text-decoration: none;
+    }
+    
+  }
+}
+.pageUp {
+  display: none;
+  position: fixed;
+  bottom: 25px;
+  right: 8px;
+  width: 55px;
+  height: 55px;
+}

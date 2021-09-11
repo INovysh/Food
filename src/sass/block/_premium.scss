@@ -1,0 +1,40 @@
+.premium {
+  padding-bottom: 80px;
+  &__title {
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #1f1f1f;
+    span {
+      color: #ff8126;
+    }
+  }
+  &__subtitle {
+    margin-top: 20px;
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #1f1f1f;
+  }
+  &__item {
+    width: 210px;
+    &:nth-of-type(5) {
+      display: none;
+    }
+  }
+  &__text {
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1f1f1f;
+  }
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+}

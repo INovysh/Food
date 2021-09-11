@@ -1,0 +1,134 @@
+.aside {
+  position: relative;
+  padding-top: 15px;
+  height: 50px;
+  background: #c2e8ce;
+  &__text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #1f1f1f;
+  }
+  &__close {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    right: 2%;
+  }
+}
+.header {
+  padding: 20px 0;
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 170px 655px 334px;
+  }
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+  }
+  &__info {
+    transition: all 0.7s;
+    max-height: 0;
+    overflow: hidden;
+    z-index: 5;
+    position: absolute;
+    background: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+
+    &_show {
+      margin-top: 10px;
+      max-height: 300px;
+      padding: 20px;
+    }
+    li {
+      position: relative;
+      margin-bottom: 10px;
+      &::before {
+        position: absolute;
+        top: -6px;
+        left: 0;
+        display: block;
+        content: "";
+        width: 100%;
+        height: 1px;
+        background: #000;
+      }
+    }
+    a {
+      color: #3d3d3d;
+      text-decoration: none;
+    }
+  }
+  &__subtitle {
+    cursor: pointer;
+    display: inline-block;
+    padding-top: 35px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #1f1f1f;
+    &_open {
+      position: relative;
+      &::after {
+        position: relative;
+        content: url("../icons/open.png");
+        display: inline-block;
+        top: 0;
+        right: -10px;
+      }
+    }
+  }
+  &__block {
+    position: relative;
+  }
+  &__btn {
+    border: none;
+    background: transparent;
+    margin-top: 18px;
+  }
+  &__icon {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+.promo {
+  padding-top: 125px;
+  padding-bottom: 195px;
+  background: url("../img/promo_bg.jpg") center center / cover no-repeat
+    rgb(168, 161, 161);
+  &__title {
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 61px;
+    color: #1f1f1f;
+  }
+  &__text {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 39px;
+    color: #1f1f1f;
+  }
+  &__btn {
+    margin-top: 40px;
+    width: 200px;
+    height: 45px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    background: #ff8126;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+  }
+}
